@@ -81,3 +81,9 @@ ORDER BY totalDistance ASC
 RETURN edges, totalDistance
 LIMIT 1
 ```
+For the next step, we want to work with the Neo4j Java Driver to implement [Java functions](https://openjdk.org/) for paths in such a way that we can call them as procedures at the server side.
+
+In order to do this, we will need to create a Java class that implements the Neo4j Procedure interface. This interface defines a number of methods that we can use to define our functions.
+
+Once we have created our Java class, we will need to compile it and then register it with the Neo4j server. Once it is registered, we will be able to call our functions from Cypher queries.   
+To do that since i worked with ```maven```, run the ```mvn clean package``` in the root directory of the project to make ```.jar``` file in the ```target``` folder. 
