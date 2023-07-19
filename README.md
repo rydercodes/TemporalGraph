@@ -7,4 +7,6 @@ Run the project on Neo4j Windows.
 
 -  Extract the files in the appropriate directory. For example: ```C:\Program Files\Neo4j``` and create Neo4j_HOME enviroment variable and include the Neo4j root directory path as its values.
 
-3- To run Neo4j as a console application, use in the terminal : ```neo4j console```. or, To install Neo4j as a service use in the terminal: ```neo4j windows-service install```
+3- To run Neo4j as a console application, use in the terminal : ```neo4j console```. or, To install Neo4j as a service use in the terminal: ```neo4j windows-service install```.   
+4- Open http://localhost:7474 in your web browser and connect using the username neo4j with the default password neo4j. You will then be prompted to change the password.   
+5- After connecting to the desired database, you can implement nodes and edges by adding the commands in this [link]( https://github.com/rydercodes/TemporalGraph/blob/main/src/Node%20and%20Edges.sh) in the Neo4j browser.
